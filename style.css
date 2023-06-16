@@ -1,3 +1,8 @@
+html{
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+
 p, li, h1{
     color: red;
     width : 500px;
@@ -7,4 +12,13 @@ p, li, h1{
 
 #abc{
     color: blue;
+}
+
+img[src]{
+    height: 100px;
+    width: 100px;
+}
+
+li:hover{
+    color: bisque;
 }
